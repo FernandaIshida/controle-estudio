@@ -1,29 +1,41 @@
 {
   "expo": {
-    "name": "controle-estudio",
+    "name": "Controle de Materiais",
     "slug": "controle-estudio",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/red-spider-logo-peq.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/red-spider-logo-peq.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FFFFFF"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.controleestudio.app"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/red-spider-logo-peq.png",
+        "backgroundColor": "#FFFFFF"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.controleestudio.app",
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/red-spider-logo-peq.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "480e647f-9d55-49f3-bd61-b1faf2aace38"
+      }
+    },
+    "owner": "fernandaishida",
+    "sdkVersion": "50.0.0"
   }
 }
